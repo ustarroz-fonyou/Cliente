@@ -1,0 +1,97 @@
+.chat{
+  width: 100%;
+  max-width: 768px;
+  background-color: #21c08b;
+  height:100vh;
+  
+}
+
+.chat--messages{
+  width: 100%;
+  height: 400px;
+  height: 85%;
+  background-color: #ecf0f1;
+  padding-top: 10px;
+}
+
+.chat--message{
+  font-size: 1.6rem;
+  background-color: #21c08b;
+  padding: 8px;
+  border-radius: 0 6px 6px 0;
+  color:white;
+  width: 80%;
+  margin: 0 0 15px 0;
+  box-shadow: 3px 7px 3px rgba(0, 0, 0, .5);
+  max-width:400px ;
+}
+
+.other--message{
+  font-size: 1.6rem;
+  background-color: #34495e;
+  padding: 8px;
+  border-radius: 6px 0px 0px 6px;
+  color:white;
+  width: 80%;
+  margin-bottom: 15px;
+  margin-left: calc(100% - 80%);
+  box-shadow: -2px 8px 4px 0px rgba(0, 0, 0, .5);
+  max-width: 400px;
+}
+
+.chat--leave{
+  font-size: 1.6rem;
+  background-color: #e74c3c;
+  padding: 8px;
+  border-radius: 6px 0px 0px 6px;
+  color:white;
+  width: 80%;
+  margin-bottom: 15px;
+  margin-left: calc(100% - 80%);
+  box-shadow: -2px 8px 4px 0px rgba(0, 0, 0, .5);
+  max-width: 400px;
+}
+
+.chat--form{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-end;
+}
+.chat--form label{
+  margin:0
+}
+.chat--form label p{
+  font-size: 1.6rem;
+  color:white;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.chat--form label input[type='text']{
+  padding: 8px;
+  border:none;
+  outline: none;
+  border-radius: 7px;
+  margin-right: 10px;
+  width: 250px;
+}
+
+.chat--form button{
+  width: 35px;
+  height: 35px;
+  border:none;
+  border-radius: 50%;
+  box-shadow:5px 4px 3px rgba(0,0,0,.5);
+  margin:0
+}
+
+.chat--form button img{
+  width: 23px;
+ 
+}
+
+.chat--form button:active{
+  box-shadow:inset 3px 2px 3px rgba(0, 0, 0, .5);
+}

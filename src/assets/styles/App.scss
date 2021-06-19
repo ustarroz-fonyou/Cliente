@@ -1,0 +1,59 @@
+@import "./Media.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-image: url(../static/backgournd.jpg);
+}
+
+.login{
+  background-image: linear-gradient(#21c08b, #8f57fd);
+  text-align: center;
+  height: 100vh
+}
+
+.login--avatar{
+  width: 6rem;
+}
+
+.login--form{
+  margin-top: 100px;
+}
+
+.login--form label p{
+  margin: 10px auto;
+  font-size: 1.6rem;
+  color:white;
+}
+
+.login--form label input[type='text']{
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: 5px auto;
+  width: 20rem;
+}
+.login--form label input[type='text']:focus{
+  box-shadow: 3px 3px 8px rgba($color: #000000, $alpha: .5);
+  outline: none;
+}
+
+.login--form input[type='submit']{
+  background-color: #1abc9c;
+  color:white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  font-size:1.6rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
